@@ -21,6 +21,10 @@ public class AddressBook {
         return null;
     }
 
+    public ArrayList<BuddyInfo> getBuddies() {
+        return buddies;
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Talia", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
